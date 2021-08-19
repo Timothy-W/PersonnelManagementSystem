@@ -3,7 +3,7 @@ using PersonnelMgtBackend.DataAccess.Repository;
 using PersonnelMgtBackend.DataAccess.Repository.IRepository;
 
 
-namespace BuildCostEstimator.DataAccess.Repository
+namespace PersonnelMgtBackend.DataAccess.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {

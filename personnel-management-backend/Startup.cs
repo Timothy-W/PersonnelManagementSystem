@@ -1,4 +1,3 @@
-using BuildCostEstimator.DataAccess.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using PersonnelMgtBackend.DataAccess;
 using PersonnelMgtBackend.DataAccess.Initializer;
+using PersonnelMgtBackend.DataAccess.Repository;
 using PersonnelMgtBackend.DataAccess.Repository.IRepository;
 
 namespace PersonnelMgtBackend
