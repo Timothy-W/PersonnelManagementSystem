@@ -24,7 +24,6 @@ export default {
   data() {
     return {
       personnel: [],
-      //tmpProxy: "https://localhost:5001/"
     };
   },
   methods: {
