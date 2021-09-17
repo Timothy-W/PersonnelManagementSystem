@@ -52,7 +52,7 @@ export default {
 
       this.personnel = [...this.personnel, data];
     },
-
+    // Some meaningful change
     async deletePerson(id) {
       const res = await fetch(`api/person/${id}`, {
         method: "DELETE",
